@@ -1,0 +1,50 @@
+body{
+	      background-color: #FBD3C7;
+	      margin: 0px
+	      padding: 0px
+	      box-sizing: border-box;
+	} 
+	nav{
+		    width: 100%
+		    height: 75px
+		    line-height: 75px;
+		   padding: 0px 100px;
+		   position: fixed;
+		   background-image: linear-gradient(#033474,#012733);
+		border-radius: 10px;
+}
+nav .logo p{
+	                  font-size: 30px;
+	                  font-weight: bold;
+	                 float: left;
+	                  color: white;
+	                  text-transformation: uppercase;
+	                   letter-spacing: 1.5px;
+	                  cursor: pointer;
+	}
+	nav ul{
+		        float: right;
+		}
+		nav li{
+			       display: inline-block;
+			       list-style: none;
+			}
+			nav li a{
+				          font-size: 18px;
+				           text-transformation: uppercase;
+				          padding: 0px 30px;
+				           color: white;  
+				          text-decoration: none;
+				}
+				nav li a:hover{
+					                     color: orange;
+					                     transision: all 0.4s ease 0.2s;
+					}
+					.image img{
+						                 width:100%;
+						                 height:100vh;
+						                 background-size: cover;
+						                 background-position: center;
+						}
+			
+	                  
